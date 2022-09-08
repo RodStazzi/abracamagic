@@ -1,0 +1,33 @@
+body{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  background-color: black;
+  background-image: url("/assets/img/fondo.jpg");
+  background-size: cover;
+  background-position: top;
+  color: white;
+}
+.galeria{
+  display: flex;
+  width: 75%;
+  margin:auto;
+}
+img{
+  width: 100%;
+}
+
+h1{
+  text-shadow: 1px 1px 7px  black;
+}
+
+.sombrero{
+  opacity: 0.5;
+}
+.sombrero:hover{
+  opacity: 1;
+}
+
